@@ -6,6 +6,10 @@ The instant SPA plugin that will most likely break your site. A https://github.c
 
 Clone or download, install and active in WordPress admin.
 
+## Proof of Concept
+
+https://bonfire.andrewrhyand.com/
+
 ## Details
 
 There are currently no settings to configure.
