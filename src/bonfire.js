@@ -1,13 +1,14 @@
 import NProgress from 'nprogress'
 import flamethrower from 'flamethrower-router'
 
-const flamethrower_router = flamethrower({
-  prefetch: 'visible',
-  log: false,
-  pageTransitions: false,
-})
+document.addEventListener('DOMContentLoaded', () => {
+  const flamethrower_router = flamethrower({
+    log: false,
+    pageTransitions: false,
+  })
 
-window.flamethrower_router = flamethrower_router
+  window.flamethrower_router = flamethrower_router
+})
 
 NProgress.configure({
   showSpinner: false,
