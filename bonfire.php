@@ -19,7 +19,9 @@ add_action('wp_enqueue_scripts', function () {
         return;
     }
 
-    $version = md5(file_get_contents(BONFIRE__PLUGIN_DIR . '/dist/mix-manifest.json'));
+    $version = md5(file_get_contents(BONFIRE__PLUGIN_DIR . '/mix-manifest.json'));
 
+    wp_enqueue_style('bonfire-vendor', BONFIRE__PLUGIN_URL . '/dist/vendor.css', [], $version);
+    wp_enqueue_style('bonfire', BONFIRE__PLUGIN_URL . '/dist/bonfire.css', [], $version);
     wp_enqueue_script('bonfire', BONFIRE__PLUGIN_URL . '/dist/bonfire.js', [], $version, true);
 });

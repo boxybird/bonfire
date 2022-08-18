@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "flamethrower-router": "^0.0.0-meme.6"
+    "flamethrower-router": "^0.0.0-meme.6",
+    "nprogress": "^0.2.0"
   },
   "devDependencies": {
     "laravel-mix": "^6.0.49"
