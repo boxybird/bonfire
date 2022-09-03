@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "flamethrower-router": "^0.0.0-meme.6",
+    "flamethrower-router": "*",
     "nprogress": "^0.2.0"
   },
   "devDependencies": {

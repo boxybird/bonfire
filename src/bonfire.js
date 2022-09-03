@@ -14,10 +14,10 @@ NProgress.configure({
   showSpinner: false,
 })
 
-window.addEventListener('router:fetch', () => {
+window.addEventListener('flamethrower:router:fetch', () => {
   NProgress.start()
 })
 
-window.addEventListener('router:end', () => {
+window.addEventListener('flamethrower:router:end', () => {
   NProgress.done()
 })
